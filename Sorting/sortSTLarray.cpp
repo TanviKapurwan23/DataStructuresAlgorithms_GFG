@@ -9,5 +9,11 @@ int main(){
     for(int x : arr){
         cout<<x<<" ";
     }
+    
+    sort(arr, arr+n, greater<int>());
+    cout<<endl;
+    for(int x : arr){
+        cout<<x<<" ";
+    }
     return 0;
 }
