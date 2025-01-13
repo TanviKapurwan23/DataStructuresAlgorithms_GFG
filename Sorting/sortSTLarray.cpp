@@ -17,3 +17,5 @@ int main(){
     }
     return 0;
 }
+
+// Greater compares elements such that greatest element comes first
